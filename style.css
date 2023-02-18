@@ -32,3 +32,8 @@
     box-sizing: border-box;
     font-family: Titillium Web;
 }
+
+body {
+  background-image: url("supersaturn.jpg");
+  background-size: cover;
+}
