@@ -1,1 +1,1 @@
-console.log("Hello World!");
+document.getElementById("copyright").textContent += +new Date().getFullYear();
