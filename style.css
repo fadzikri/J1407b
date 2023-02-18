@@ -41,7 +41,7 @@
 
 body {
   color: var(--text-color);
-  background-image: url("supersaturn.jpg");
+  background: #878787 url("supersaturn-m.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -78,7 +78,12 @@ footer li {
   margin-left: 35px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 786px) {
+  body {
+    background: #878787 url("supersaturn-d.jpg") no-repeat center;
+    background-size: cover;
+  }
+
   footer div > p {
     text-align: initial;
   }
