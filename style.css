@@ -33,7 +33,57 @@
     font-family: Titillium Web;
 }
 
+:root {
+  --text-color: #d7d7d7;
+  --background-element: #878787b3;
+  --blur-effect: 3px;
+}
+
 body {
+  color: var(--text-color);
   background-image: url("supersaturn.jpg");
   background-size: cover;
+}
+
+.title {
+  margin: 20px;
+  display: flex;
+}
+
+h1 {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 20px;
+  background-color: var(--background-element);
+  backdrop-filter: blur(var(--blur-effect));
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer div > p {
+  text-align: center;
+}
+
+footer div {
+  margin: 20px;
+  padding: 20px;
+  background-color: var(--background-element);
+  backdrop-filter: blur(3px);
+}
+
+footer li {
+  margin-left: 35px;
+}
+
+@media screen and (min-width: 500px) {
+  footer div > p {
+    text-align: initial;
+  }
+
+  footer div > p:last-child{
+    text-align: center;
+  }
 }
