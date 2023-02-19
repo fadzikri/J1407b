@@ -81,7 +81,7 @@ footer li {
 
 @media screen and (min-width: 786px) {
   body {
-    background: #878787 url("supersaturn-d.jpg") no-repeat center;
+    background: #878787 url("supersaturn-d.jpg") no-repeat;
     background-size: cover;
   }
 
