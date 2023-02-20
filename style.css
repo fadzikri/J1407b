@@ -74,6 +74,7 @@ footer div, article p {
   background-color: var(--background-element);
   backdrop-filter: blur(3px);
   border-radius: 8px;
+  text-align: justify;
 }
 
 footer li {
